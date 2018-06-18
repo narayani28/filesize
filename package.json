@@ -1,0 +1,17 @@
+{
+  "name": "filesize",
+  "title": "filesize",
+  "description": "Shows the file size",
+  "homepage": "https://github.com/narayani28",
+  "version": "0.0.1",
+  "author": "Narayani <narayani.84@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "brackets": ">=1.11.0"
+  },
+  "main": "main.js",
+    "keywords": [
+        "size",
+        "filesize"
+    ]
+}
