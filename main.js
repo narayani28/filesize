@@ -1,7 +1,7 @@
 /*jslint vars: true, plusplus: true, devel: true, nomen: true, regexp: true, indent: 4, maxerr: 50 */
 /*global define, $, brackets */
 
-/** Simple extension that shows the file size in KB on save or when switching between documents */
+/** Simple extension that shows the file size in KB on save or when switching to another document */
 define(function (require, exports, module) {
     "use strict";
 
@@ -56,10 +56,14 @@ define(function (require, exports, module) {
         getFileInfo(absolutePath);
     }  
     
-    //handler for a active editor change
+    //handler for active editor change
     function handleActiveEditorChange(event, newEditor) {
-        var currentFilePath = newEditor.document.file.fullPath;
-        getFileInfo(currentFilePath);
+        if (newEditor.document.isUntitled()) {
+            updateStatusIndicator("");
+        } else {
+            var currentFilePath = newEditor.document.file.fullPath;
+            getFileInfo(currentFilePath);
+        }
     }
     
     //register for document saved event
