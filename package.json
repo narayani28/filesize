@@ -1,7 +1,7 @@
 {
   "name": "filesize",
-  "title": "filesize",
-  "description": "Shows the file size",
+  "title": "File Size",
+  "description": "Shows the file size in Statusbar",
   "homepage": "https://github.com/narayani28",
   "version": "0.0.1",
   "author": "Narayani <narayani.84@gmail.com>",
