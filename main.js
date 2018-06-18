@@ -67,6 +67,5 @@ define(function (require, exports, module) {
     
     //register for active editor changed event
     EditorManager.on("activeEditorChange", handleActiveEditorChange);
-    //handleActiveEditorChange(EditorManager.getActiveEditor());
-    
+   
 });
