@@ -2,16 +2,23 @@
   "name": "filesize",
   "title": "FileSize",
   "description": "Shows the file size in KB on save and for the current active document",
-  "homepage": "https://github.com/narayani28",
   "version": "0.0.1",
-  "author": "Narayani <narayani.84@gmail.com>",
+  "author": "Narayani <narayani.84@gmail.com> (https://github.com/narayani28/)",
   "license": "MIT",
   "engines": {
     "brackets": ">=1.11.0"
   },
   "main": "main.js",
-    "keywords": [
-        "size",
-        "filesize"
-    ]
+  "keywords": [
+    "size",
+    "filesize"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/narayani28/filesize.git"
+  },
+  "bugs": {
+    "url": "https://github.com/narayani28/filesize/issues"
+  },
+  "homepage": "https://github.com/narayani28/filesize"  
 }
