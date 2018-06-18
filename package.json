@@ -1,6 +1,6 @@
 {
   "name": "filesize",
-  "title": "FileSize",
+  "title": "File Size",
   "description": "Shows the file size in KB on save and for the current active document",
   "version": "0.0.1",
   "author": "Narayani <narayani.84@gmail.com> (https://github.com/narayani28/)",
